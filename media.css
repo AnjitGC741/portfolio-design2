@@ -1,0 +1,93 @@
+@media (max-width:1000px)
+{
+    .btn-mobile-nav{
+        display: block;
+    }
+    .nav-links{
+        background-color: #2f2f2f;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        transform: translateY(-100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease-out ;
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+
+    }
+    .nav-open .nav-links{
+        opacity: 100%;
+        pointer-events: auto;
+        visibility: visible;
+        transform:translateY(0%);
+    }
+    .nav-open .icon-mobile-nav[name="close-outline"]
+    {
+        display: block;
+    }
+    .nav-open .icon-mobile-nav[name="menu-outline"]
+    {
+        display: none;
+    }
+    .nav-links ul{
+        flex-direction: column;
+        gap: 4.8rem;
+    }
+}
+@media(max-width:1500px)
+{
+    .my-story{
+       
+        left: 0;
+        
+    }
+}
+@media(max-width:1200px)
+{
+    .for-photo{
+        height: 37rem;
+    }
+}
+@media(max-width:900px)
+{
+    html{
+        font-size:8px;
+    }
+}
+@media(max-width:600px)
+{
+    html{
+        font-size: 6px;
+    }
+    .for-photo{
+        height: 32rem;
+    }
+}
+@media(max-width:500px)
+{
+    .photo-section{
+        display: none;
+    }
+    .hero-section{
+        display: block;
+    }
+    .intro-section{
+        width: 100%;
+    }
+    .about-section{
+        display: block;
+    }
+    .about-section-img{
+        width: 100%;
+    }
+    .about-section-info{
+        width: 100%;
+    }
+    
+}

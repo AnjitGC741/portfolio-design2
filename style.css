@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family:'Inter', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    background-color: #2F2F2F;
+}
+nav{
+    width: 100%;
+    background-color: #2F2F2F;
+    height: 9rem;
+}
+.main-navbar{
+    height: 100%;
+    max-width: 192rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 7rem;
+}
+nav h1{
+    color: #741D1D;
+    font-size: 4.4rem;
+    font-weight: 900;
+}
+.nav-links ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.nav-links ul li{
+    list-style: none;
+}
+.links{
+    color: #fff;
+    font-size: 1.8rem;
+    text-decoration: none;
+    translate: all 0.3s;
+    /* background-color: #741D1D; */
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+.links:hover{
+    background-color: #741D1D;
+}
+.btn-mobile-nav{
+    border:none;
+    background: none;
+    cursor: pointer;
+    display: none;
+
+}
+.icon-mobile-nav{
+    height: 4.8rem;
+    width: 4.8rem;
+    color:#fff;
+}
+.icon-mobile-nav[name="close-outline"]
+{
+    display: none;
+}
+/**********************/
+
+/* Hero SECTION */
+
+/*********************/
+.hero-section{
+    max-width: 145rem;
+    /* height: 87vh; */
+    display: flex;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+.intro-section{
+    height: 100%;
+    width: 75%;
+    background-color: #2F2F2F;
+    padding: 15% 25% 15% 1%;
+}
+.intro-section h2,p{
+    color: #fff;
+}
+.intro-section h1{
+    color: #741D1D;
+    font-size: 4.8rem;
+    line-height: 2;
+    margin-bottom: 3rem;
+}
+.intro-section h2{
+    font-size: 3.2rem;
+    line-height: 2;
+    letter-spacing: 0.1rem;
+}
+.intro-section p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+}
+.photo-section{
+    width: 25%;
+    background-color: #741D1D;
+    padding-top: 11%;
+}
+.for-photo{
+    width: 115%;
+    height: 40rem;
+    background-color: black;
+    border-radius: 100%;
+    margin-left: -55%;
+    overflow: hidden;
+}
+.for-photo img{
+    width: 80%;
+    height: 100%;
+    margin-left: 9%;
+}
+.about-section{
+    max-width: 145rem;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: aquamarine; */
+    align-items: center;
+    position: relative;
+}
+.my-story{
+    position: absolute;
+    left: -3%;
+    top: -5%;
+}
+.my-story h2{
+    color: #fff;
+    font-size: 1.8rem;
+    background-color: #741D1D;
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    padding: 1.6rem 3.2rem;
+    width: 150%;
+}
+.about{
+    width: 30%;
+}
+.about h2{
+    font-size:4.4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.about-section-img img{
+    width: 100%;
+    height: 50rem;
+}
+.about-section-info p{
+    margin-top: 5rem;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+.about hr{
+ 
+  border: 4px solid #741D1D;
+  border-bottom: none;
+
+}
+.btn{
+    display: inline-block;
+    margin-top: 3rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1.6rem 3.2rem;
+    border-radius: 10px;
+}
+.btn-hire{
+    background-color: #741D1D;
+    margin-right: 3rem;
+}
+.btn-cv{
+    background-color: #2F2F2F;
+    border: 3px solid #741D1D;
+}
